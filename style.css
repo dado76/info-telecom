@@ -87,3 +87,14 @@ color: black;
               background-color: #444;
               color: white;
           }
+
+ #test {
+   margin-top: 10px;
+   border-width : 1px;
+   border-color : white;
+   border-style : solid;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 10px;
+
+ }

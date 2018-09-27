@@ -63,7 +63,7 @@
 
       //exemple d'utilisation :
 
-      listing('.plan');        //chemin du dossier
-echo ($fichier);
+      listing('plan/OM/LUNDI');        //chemin du dossier
+
       ?>
     </div>

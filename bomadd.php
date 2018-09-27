@@ -1,5 +1,24 @@
-<center>
 
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Accueil</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+
+  <div class="wrapper">
+    <div class="box a"><?php include("entete.php")?></div>
+    <div class="box b"><?php include("logo.php")?></div>
+    <div class="box c">
+<center>
+  <div id="test">
 
 <?php
 
@@ -32,38 +51,94 @@ try
 
 <label>Codification</label>
 <input type="text" name="Codification" placeholder="Enter Name" required value="" />
-
-<label>Carte sims</label>
-<input type="text" name="sim" placeholder="N/S carte sims" required value="" />
 <br>
 <br>
-<label>Balise</label>
-<input type="text" name="balise" placeholder="N/S Balise" required value="" />
-<label>Téléphone</label>
-<input type="text" name="telephone" placeholder="Numéro tel" required value="" />
-<br>
-<br>
-<label>ID et Port</label>
-<input type="text" name="IDPORT" placeholder="ID et Port" required value="" />
 <label>Immatriculation</label>
 <input type="text" name="immatriculation" placeholder="Immatriculation" required value="" />
 <br>
 <br>
-<label>Statut</label>
-<input type="text" name="statut" placeholder="Statut" required value="" />
-<label>Probléme</label>
-<input type="text" name="probleme" placeholder="Probléme" required value="" />
+<label>Chassis_equip</label>
+<input type="text" name="Chassis_equip" placeholder="Chassis" required value="" />
 <br>
 <br>
-<label>Navigation</label>
-<input type="text" name="navigation" placeholder="Navigation" required value="" />
-
-<label>LC</label>
-<input type="text" name="LC" placeholder="LC" required value="" />
+<label>Secteur</label>
+<input type="text" name="Secteur" placeholder="Secteur" required value="" />
 <br>
 <br>
-<label>Pesée Embarquée</label>
-<input type="text" name="pesee" placeholder="Type pesée" required value="" />
+<label>Cubage</label>
+<input type="text" name="Cubage" placeholder="Cubage" required value="" />
+<br>
+<br>
+<label>Immatriculation</label>
+<input type="text" name="Type_benne" placeholder="Type_benne" required value="" />
+<br>
+<br>
+<label>Numéro de benne</label>
+<input type="text" name="Num_benne" placeholder="Num_benne" required value="" />
+<br>
+<br>
+<label>Chassis</label>
+<input type="text" name="Chassis" placeholder="Chassis" required value="" />
+<br>
+<br>
+<label>MEC</label>
+<input type="text" name="MEC" placeholder="MEC" required value="" />
+<br>
+<br>
+<label>BOM_remplacer</label>
+<input type="text" name="BOM_remplacer" placeholder="BOM_remplacer" required value="" />
+<br>
+<br>
+<label>PTAC</label>
+<input type="text" name="PTAC" placeholder="PTAC" required value="" />
+<br>
+<br>
+<label>PV</label>
+<input type="text" name="PV" placeholder="PV" required value="" />
+<br>
+<br>
+<label>PV</label>
+<input type="text" name="PV" placeholder="PV" required value="" />
+<br>
+<br>
+<label>CU</label>
+<input type="text" name="CU" placeholder="CU" required value="" />
+<br>
+<br>
+<label>CU_reel</label>
+<input type="text" name="CU_reel" placeholder="CU_reel" required value="" />
+<br>
+<br>
+<label>Empattement</label>
+<input type="text" name="Empattement" placeholder="Empattement" required value="" />
+<br>
+<br>
+<label>LONGEUR</label>
+<input type="text" name="LONGEUR" placeholder="LONGEUR" required value="" />
+<br>
+<br>
+<label>longu</label>
+<input type="text" name="LONGEUR" placeholder="longu" required value="" />
+<br>
+<br>
+<label>larg_retro</label>
+<input type="text" name="larg_retro" placeholder="larg_retro" required value="" />
+<br>
+<br>
+<label>haut_ech</label>
+<input type="text" name="haut_ech" placeholder="haut_ech" required value="" />
+<br>
+<br>
+<label>Type</label>
+<input type="text" name="Type" placeholder="Type" required value="" />
+<br>
+<br>
+<label>N_BASC</label>
+<input type="text" name="N_BASC" placeholder="N_BASC" required value="" />
+<br>
+<br>
+<label>marque_LC</label>
+<input type="text" name="marque_LC" placeholder="marque_LC" required value="" />
 <br>
 <br>
 <br>
@@ -118,3 +193,5 @@ header("Refresh: 6;url=sim.php");
 
 ?>
 </center>
+</div>
+</div>

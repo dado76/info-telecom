@@ -25,11 +25,10 @@
          ?>
 
 
-  <div id="test"
-             <h1>Carte Sims<span></span></h1>
+  <div id="test">
+             <h1>Balise<span></span></h1>
              <form>
-                 <div class="inner-wrap">
-                              <div class="section"><span>1</span>Carte sims</div>
+
                               <?php
                               $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
                               $bdd = new PDO('mysql:host=localhost;dbname=dcr_info', 'root', '', $pdo_options);
@@ -57,16 +56,19 @@
                $array2 = $req2->fetchALL();
                $nb2 = count($array2);
                ?>
+               <br>
       <td> Nombre de balise : <td> <?php  echo $nb; ?>
+        <br>
       <td> En fonction  : <td><?php  echo $nb1; ?>
+        <br>
       <td> Equipé RFID : <td> <?php  echo $nb2; ?>
         <br>
         <br>
                 <button><a href="sim.php">Voir</a></button>
 
+
       </div>
-      </div>
-      <div class="form-style-10">
+  <div id="test">
       <h1>Radio<span></span></h1>
       <form>
 
@@ -80,7 +82,7 @@
        $array3 = $req3->fetchALL();
        $nb3 = count($array3);
        ?>
-                       <div id="radio"><span>2</span>Radio</div>
+
       <td> Nombre de radio :  <td>  <span><?php  echo $nb3; ?></span>
       <?php
         $sql4 = "SELECT * FROM radio ";
@@ -89,36 +91,47 @@
         $array4 = $req4->fetchALL();
         $nb4 = count($array4);
         ?>
+
+        <br>
       <td> En fonction  : <td>
+        <br>
       <td> En stock :  <td>
+        <br>
+        <br>
       <button><a href="radio.php">Voir</a></button>
 
       </div>
       </div>
-      <div class="form-style-10">
+  <div id="test">
       <h1>Bom<span></span></h1>
       <form>
 
-          <div class="inner-wrap">
-                       <div class="section"><span>3</span>Bom</div>
+
       <td> Nombre de bom : <td>
+        <br>
       <td> Utilisant une pesée  : <td>
+        <br>
       <td> Utilisant RFID : <td>
+        <br>
         <button><a href="bom.php">Voir</a></button>
 
       </div>
-      </div>
-      <div class="form-style-10">
+  <div id="test">
       <h1>Tournée de référence<span></span></h1>
       <form>
 
           <div class="inner-wrap">
-                       <div class="section"><span>4</span>Tournée</div>
-      <td> Nombre de tournée : <td>
-      <td> Nombre de tournée CS : <td>
-      <td> Nombre de tournée OM : <td>
-        <button><a href="plan.php">Voir</a></button>
 
+      <td> Nombre de tournée : <td>
+        <br>
+      <td> Nombre de tournée CS : <td>
+        <br>
+      <td> Nombre de tournée OM : <td>
+        <br>
+        <br>
+        <button><a href="plan.php">Voir</a></button>
+<br>
+<br>
       </div>
       </div>
              </center>
@@ -129,7 +142,8 @@
 
       </center>
         <form>
-
+<br>
+<br>
 
 
 

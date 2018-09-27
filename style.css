@@ -17,7 +17,9 @@ body {
         border-radius: 5px;
     padding: 2px;
         font-size: 120%;
-
+        border-width : 1px;
+        border-color : black;
+   border-style : solid;
     }
 
     .a {
@@ -91,10 +93,26 @@ color: black;
  #test {
    margin-top: 10px;
    border-width : 1px;
-   border-color : white;
+   border-color : black;
    border-style : solid;
    margin-left: 20%;
    margin-right: 20%;
    padding: 10px;
+   text-align: center;
+   background: grey;
+   border-radius: 10px;
+   background-color: #e6e6e6;
+   color: black;
+   font-size: 80%;
+
+
+
+ }
+ #test h1{
+
+   color: black;
+   font-size: 20px;
+
+
 
  }

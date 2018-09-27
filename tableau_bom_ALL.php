@@ -4,7 +4,7 @@
 
     <form name="Codification" method="post">
 
-<button><a href="Immatriculationadd.php">Ajouter</a></button><button><a href="Immatriculationadd.php">Excel</a></button><button><a href="Immatriculationadd.php">Imprimer</a></button>
+<button><a href="bomadd.php">Ajouter</a></button><button><a href="bomexcel.php">Excel</a></button><button><a href="bomprint.php">Imprimer</a></button>
 
 <br>
 
@@ -105,15 +105,15 @@
      echo "<td> $donnees[PTAC] </td>";
      echo "<td> $donnees[PV] </td>";
      ?>
-  	<td align="center"><a href="Codificationedit.php?id=<?php echo $donnees["Codification"]; ?>">
+  	<td align="center"><a href="bomedit.php?id=<?php echo $donnees["Codification"]; ?>">
   	<i class="fa fa-eyedropper" style="color:black;></i><img src"logo.jpg" border="0" text-color="black"></a></td>
 
 
-  	<td align="center"><a href="Codificcationtiondel.php?id=<?php echo $donnees["Codification"]; ?>">
+  	<td align="center"><a href="bomdel.php?id=<?php echo $donnees["Codification"]; ?>">
   	<i class="fa fa-trash" style="color:black;></i><img src"logo.jpg" border="0" text-color="black"></a></td>
 
 
-       <td align="center"><a href="Codificationnview.php?id=<?php echo $donnees["Codification"]; ?>">
+       <td align="center"><a href="bomview.php?id=<?php echo $donnees["Codification"]; ?>">
        <i class="fa fa-eye" style="color:black;></i><img src"logo.jpg" border="0" text-color="black"></a></td>
 
   	</tr>

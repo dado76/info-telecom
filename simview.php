@@ -16,7 +16,7 @@
 <div class="wrapper">
   <div class="box a"><?php include("entete.php")?></div>
   <div class="box b"><?php include("logo.php")?></div>
-  <div class="box c">
+  <div class="box c">  <div id="test">
 	  <?php
 
 	  try

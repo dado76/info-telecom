@@ -4,7 +4,7 @@
 
     <form name="Codification" method="post">
 
-<button><a href="Immatriculationadd.php">Ajouter</a></button><button><a href="Immatriculationadd.php">Excel</a></button><button><a href="Immatriculationadd.php">Imprimer</a></button>
+<button><a href="radioadd.php">Ajouter</a></button><button><a href="radioexcel.php">Excel</a></button><button><a href="radioadd.php">Imprimer</a></button>
 
 <br>
 
